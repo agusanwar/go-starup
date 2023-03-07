@@ -1,0 +1,24 @@
+// Handler
+    request for calling handler
+
+// Services
+    - handler calling layer services 
+    - untuk melakukan suatu logic dan fungsi bisnis proses 
+    - services membutuhkan akses to database
+
+// Repository
+    services calling layer repository
+
+// Halper
+
+
+// Database
+    repository calling layer database
+
+    // user
+        - input
+        - handler mapping input dari useres ke struct input
+        - services mapping struct input ke struct users
+        - repository save struct user to db
+        - db 
+
